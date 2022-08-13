@@ -10,6 +10,12 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+#facebook, #twitter, #dribbble, #instagram{
+    color: black;
+}
+#text-center{
+    color: black !important;
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -756,7 +762,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #8A370A;
     color: #FFFFFF!important;
 }
 
