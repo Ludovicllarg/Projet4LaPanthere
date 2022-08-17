@@ -10,10 +10,21 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+.col-sm-3{
+    display: flex;
+}
 #facebook, #twitter, #dribbble, #instagram{
     color: black;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 #text-center{
+    color: black !important;
+}
+.text-center.hero-bloc-text.tc-black{
+    color: black !important;
+}
+.text-center.mg-lg.tc-white.tight-width-whitespace{
     color: black !important;
 }
 a,
@@ -660,7 +671,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -683,8 +694,11 @@ p {
 }
 
 .social {
-    max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: black !important;
 }
 
 h2 {
